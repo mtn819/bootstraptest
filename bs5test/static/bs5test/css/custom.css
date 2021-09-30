@@ -1,0 +1,21 @@
+/*
+FONT IMPORTS
+*/
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+
+:root {
+    --themeColorPrimary: #E8B4B8;
+    --themeColorPrimaryLight: #EED6D3;
+    --themeColorSecondary: #A49393;
+    --themeColorSecondaryDark: #A49393;
+
+    --themeFontSans: 'Yusei Magic', sans-serif;
+    --themeFontDisplay: 'Rye', cursive;
+    --themeFontMono: 'Xanh Mono', monospace;
+    --themeFontHand: 'Explora', cursive;
+
+    font-size: calc(16px + 1vw);
+}

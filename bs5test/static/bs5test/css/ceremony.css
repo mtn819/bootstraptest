@@ -1,0 +1,40 @@
+/* NAV */
+
+nav {
+    background-color: var(--themeColorPrimary);
+    box-shadow: 4px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: var(--themeFontDisplay);
+}
+
+/* MAIN */
+@keyframes opacify {
+    0% {opacity: .5}
+    100% {opacity: 1}
+}
+
+main.main--clicked {
+    animation-name: opacify;
+    animation-duration: 2s;
+}
+
+/* FOOTER */
+
+footer a {
+    text-decoration: none;
+}
+
+/* md cutoff */
+@media only screen and (min-width: 768px){
+    nav {
+        height: 100vh;
+    }
+}
